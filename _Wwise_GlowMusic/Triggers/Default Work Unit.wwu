@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{33E1D321-1CA6-4E58-94FE-F7C3597419D7}" SchemaVersion="85">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{33E1D321-1CA6-4E58-94FE-F7C3597419D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="t_SphereExplosion" ID="{4137EFDA-98FB-4537-9752-D0228D903CB1}"/>
+				<Trigger Name="t_SphereKick" ID="{8D75620B-B0A8-46CB-9D5D-F6118BB5D74D}"/>
+				<Trigger Name="t_HedraBotExplosion" ID="{69EDFE75-E4A7-4A51-BE3A-74AC3C5FBF2C}"/>
+				<Trigger Name="t_HedraBotKick" ID="{C4B7C611-D258-41BA-8364-FC85360F5810}"/>
+				<Trigger Name="t_AbstractFlowerExplosion" ID="{8B8EFBE9-FD33-45E4-BDC0-FF1240FB381A}"/>
+				<Trigger Name="t_AbstractFlowerKick" ID="{CF72522F-4262-4BE3-9A54-0D1FAB7AEA50}"/>
+				<Trigger Name="t_AbstractFlowerKick2" ID="{7D21BB70-53AA-4032-B21A-D68C6CD30A8D}"/>
+				<Trigger Name="t_Reward" ID="{9E36D1AD-12C8-417C-B9D8-92FB5B9744DE}"/>
+				<Trigger Name="t_SharkSFX" ID="{3F6BE3FE-5B2C-4239-B5E7-41D1CC730307}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

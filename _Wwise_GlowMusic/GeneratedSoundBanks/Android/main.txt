@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	264311459	e_HedraBotExplosion			\Default Work Unit\e_HedraBotExplosion	
+	469478876	e_Reward			\Default Work Unit\e_Reward	
+	521189448	e_SphereKick			\Default Work Unit\e_SphereKick	
+	645697518	e_AbstractFlowerKick2			\Default Work Unit\e_AbstractFlowerKick2	
+	996077141	e_SharkSfx			\Default Work Unit\e_SharkSfx	
+	1334257255	e_AbstractFlowerExplosion			\Default Work Unit\e_AbstractFlowerExplosion	
+	1542960224	e_HedraBotKick			\Default Work Unit\e_HedraBotKick	
+	2229652315	e_InGameMusic			\Default Work Unit\e_InGameMusic	
+	2578549300	e_AbstractFlowerKick			\Default Work Unit\e_AbstractFlowerKick	
+	4078906923	e_SphereExplosion			\Default Work Unit\e_SphereExplosion	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	555789630	Shmupv2_1	D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\.cache\Android\SFX\Shmupv2_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Shmupv2_1\Shmupv2_1		8467488
+

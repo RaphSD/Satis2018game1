@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C2D4868A-B976-4D49-A030-13EE6BB021F7}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{C2D4868A-B976-4D49-A030-13EE6BB021F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}">
+					<ChildrenList>
+						<State Name="None" ID="{3B72F831-E863-4EE0-84F7-3C81E7702B51}"/>
+						<State Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+						<State Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+						<State Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+						<State Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+						<State Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+						<State Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2557E156-6F64-47E5-9CFD-F0261F6C46E4}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{2557E156-6F64-47E5-9CFD-F0261F6C46E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="NumKills" ID="{FB95F5CE-4DE3-41B8-8669-FB3047C6AB9D}"/>
+				<GameParameter Name="EnergyTime" ID="{F5331F68-3540-4664-A874-A63327DCEFE9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="30"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

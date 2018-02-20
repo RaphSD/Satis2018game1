@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A726739F-5FD8-4CCE-ACF5-914A2005C5AB}" SchemaVersion="85">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{A726739F-5FD8-4CCE-ACF5-914A2005C5AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="TestStinger" ID="{5B3EDEE3-02B8-448A-8A20-EC96B52AB78F}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="NumKills" ID="{FB95F5CE-4DE3-41B8-8669-FB3047C6AB9D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EnergyTime" ID="{F5331F68-3540-4664-A874-A63327DCEFE9}"/>
+							<Value>6.5170193731943</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

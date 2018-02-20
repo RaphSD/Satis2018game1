@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="e_InGameMusic" ID="{E4B3586A-2350-4F5F-8F40-AA61E8D8EFA9}">
+					<ChildrenList>
+						<Action Name="" ID="{C2480DFF-2762-48BA-A4A6-101ABD16C525}" ShortID="121044281">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shmupv2_1" ID="{FDA3FD10-1F02-4A7D-8837-8AE637A9969A}" WorkUnitID="{C0F6CC92-23C4-4E86-9FD3-7149E6154C2D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="e_SphereExplosion" ID="{2ACA691E-03A4-4E01-8DF2-53AE49DB9B5F}"/>
+				<Event Name="e_SphereKick" ID="{2409F276-57E8-4BD0-9278-DAEB80CD8362}"/>
+				<Event Name="e_HedraBotExplosion" ID="{F678761A-35C2-427C-8E92-5FC341D67385}"/>
+				<Event Name="e_HedraBotKick" ID="{0B30DBA6-EF5F-49A0-BAE2-825E687B5097}"/>
+				<Event Name="e_AbstractFlowerExplosion" ID="{CA0A2E7B-42D0-43DD-B223-2625E9C427FE}"/>
+				<Event Name="e_AbstractFlowerKick" ID="{B92DCB1F-BF8C-4357-8404-BF80FA8E4072}"/>
+				<Event Name="e_AbstractFlowerKick2" ID="{20AC199E-1088-4910-A2FA-2D1FC16D2479}"/>
+				<Event Name="e_Reward" ID="{C42CA201-B565-475E-BD3F-9F3B82B91DB7}"/>
+				<Event Name="e_SharkSfx" ID="{8F0159B1-0920-4E9F-B565-1FE6E6C17F24}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,20 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2782712965	Level			\Default Work Unit\Level	
+
+State	ID	Name	State Group			Notes
+	529726532	end	Level			
+	748895195	None	Level			
+	1054310547	s_L5_GrooveTutti	Level			
+	1330904208	s_L3_AbstractFlower	Level			
+	2119280931	s_L2_ShereRich	Level			
+	3196405276	s_L4_Groove	Level			
+	4210244680	s_L1_ShereSimple	Level			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	530303819	Communication	Communication			
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2C412A4-4F1D-468F-9764-CABCFF2AAC1A}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D2C412A4-4F1D-468F-9764-CABCFF2AAC1A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main" ID="{CDCEFF5A-E679-4CD1-80C9-E4F98392ED62}">
+					<ObjectInclusionList>
+						<ObjectRef Name="e_HedraBotExplosion" ID="{F678761A-35C2-427C-8E92-5FC341D67385}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_AbstractFlowerKick" ID="{B92DCB1F-BF8C-4357-8404-BF80FA8E4072}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_AbstractFlowerExplosion" ID="{CA0A2E7B-42D0-43DD-B223-2625E9C427FE}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_Reward" ID="{C42CA201-B565-475E-BD3F-9F3B82B91DB7}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_AbstractFlowerKick2" ID="{20AC199E-1088-4910-A2FA-2D1FC16D2479}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_HedraBotKick" ID="{0B30DBA6-EF5F-49A0-BAE2-825E687B5097}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_SphereKick" ID="{2409F276-57E8-4BD0-9278-DAEB80CD8362}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_SphereExplosion" ID="{2ACA691E-03A4-4E01-8DF2-53AE49DB9B5F}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_SharkSfx" ID="{8F0159B1-0920-4E9F-B565-1FE6E6C17F24}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="e_InGameMusic" ID="{E4B3586A-2350-4F5F-8F40-AA61E8D8EFA9}" WorkUnitID="{7B3A33E8-D20D-4FD9-9844-92B2719B889C}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
