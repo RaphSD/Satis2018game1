@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\SatisGame1Git\_Wwise_GlowMusic\</ProjectRoot>
-		<SourceFilesRoot>D:\SatisGame1Git\_Wwise_GlowMusic\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\SatisGame1Git\_Wwise_GlowMusic\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/Thomas/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Scolaire/SATIS/M2/ENJMIN/GUIT/_Wwise_GlowMusic/</ProjectRoot>
+		<SourceFilesRoot>/Users/Thomas/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Scolaire/SATIS/M2/ENJMIN/GUIT/_Wwise_GlowMusic/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Thomas/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Scolaire/SATIS/M2/ENJMIN/GUIT/_Wwise_GlowMusic/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\SatisGame1Git\_Wwise_GlowMusic\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/Thomas/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Scolaire/SATIS/M2/ENJMIN/GUIT/_Wwise_GlowMusic/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -35,7 +35,7 @@
 			<IncludedMemoryFiles>
 				<File Id="555789630" Language="SFX">
 					<ShortName>Shmupv2_1.wav</ShortName>
-					<Path>SFX\Shmupv2_1_F17FB28C.wem</Path>
+					<Path>SFX/Shmupv2_1_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

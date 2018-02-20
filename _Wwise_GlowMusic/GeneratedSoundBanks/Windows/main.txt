@@ -11,5 +11,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	4078906923	e_SphereExplosion			\Default Work Unit\e_SphereExplosion	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	555789630	Shmupv2_1	D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\.cache\Windows\SFX\Shmupv2_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Shmupv2_1\Shmupv2_1		8467488
+	555789630	Shmupv2_1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\Shmupv2_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Shmupv2_1\Shmupv2_1		8467488
 
