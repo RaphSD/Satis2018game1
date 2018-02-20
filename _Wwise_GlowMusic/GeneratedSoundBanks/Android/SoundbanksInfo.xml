@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\</ProjectRoot>
-		<SourceFilesRoot>D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>D:\SatisGame1Git\_Wwise_GlowMusic\</ProjectRoot>
+		<SourceFilesRoot>D:\SatisGame1Git\_Wwise_GlowMusic\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\SatisGame1Git\_Wwise_GlowMusic\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\GeneratedSoundBanks\Android\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\SatisGame1Git\_Wwise_GlowMusic\GeneratedSoundBanks\Android\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

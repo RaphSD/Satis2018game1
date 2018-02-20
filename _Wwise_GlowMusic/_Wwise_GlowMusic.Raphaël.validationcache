@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\_Wwise_GlowMusic.Raphaël.wsettings" DateLow="1519139123" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\_Wwise_GlowMusic.wproj" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Attenuations\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Audio Devices\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Control Surface Sessions\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Conversion Settings\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1518973002" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Effects\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Effects\Factory Auro Headphone.wwu" DateLow="1518973002" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Effects\Factory Effects.wwu" DateLow="1518973002" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Events\Default Work Unit.wwu" DateLow="1519139123" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Game Parameters\Default Work Unit.wwu" DateLow="1519088872" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1519139123" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Mixing Sessions\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Modulators\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Presets\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Queries\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Queries\Factory Queries.wwu" DateLow="1518973002" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\SoundBanks\Default Work Unit.wwu" DateLow="1519085356" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1519089622" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\States\Default Work Unit.wwu" DateLow="1519057620" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Switches\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Triggers\Default Work Unit.wwu" DateLow="1519084138" DateHigh="0"/>
+	<ValidationCacheItem File="D:\SatisGame1Git\_Wwise_GlowMusic\Virtual Acoustics\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\_Wwise_GlowMusic.wproj" DateLow="1518991158" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Workshop-SATIS\GLOW_MUSIQUE\_Wwise_GlowMusic\Attenuations\Default Work Unit.wwu" DateLow="1518991158" DateHigh="0"/>
