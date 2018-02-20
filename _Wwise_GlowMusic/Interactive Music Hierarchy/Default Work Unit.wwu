@@ -65,6 +65,11 @@
 				<MusicSegment Name="Shmupv2_1" ID="{FDA3FD10-1F02-4A7D-8837-8AE637A9969A}" ShortID="656306883">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="48000"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
