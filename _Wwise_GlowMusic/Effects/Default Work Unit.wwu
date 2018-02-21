@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9ABBC2E3-D7F8-4262-A89B-3F3DB20C31B5}" SchemaVersion="85">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{9ABBC2E3-D7F8-4262-A89B-3F3DB20C31B5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9ABBC2E3-D7F8-4262-A89B-3F3DB20C31B5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_iZotope_Hybrid_Reverb" ID="{E5A21D7E-EBAA-446B-BDBE-53080E04242C}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3"/>
+				<Effect Name="New_Wwise_RoomVerb" ID="{15614E35-1959-43F4-BE42-A3055C65CF3F}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Gain" ID="{83B3AC85-47A3-4557-B034-5DC0377E3A45}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+				<Effect Name="New_Wwise_Parametric_EQ" ID="{73C08E03-4F01-42CE-AACB-D7D624A3F5F5}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Parametric_EQ_01" ID="{F0E35099-0FF4-4D6C-874C-929155BA388D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{1E559449-DC70-4F04-A086-D962B312D0BF}" ShortID="227351365">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="EnergyTime" ID="{F5331F68-3540-4664-A874-A63327DCEFE9}" WorkUnitID="{2557E156-6F64-47E5-9CFD-F0261F6C46E4}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{32A79291-9566-4289-9A86-9A642B6037BD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>80.31628</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>30</XPos>
+												<YPos>20000</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

@@ -3,129 +3,2074 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{C0F6CC92-23C4-4E86-9FD3-7149E6154C2D}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicSegment Name="seg_mid_03" ID="{63C25F93-B288-4521-A4FE-46D831EE290F}" ShortID="204911523">
-					<PropertyList>
-						<Property Name="EndPosition" Type="Real64" Value="27870.9750566893"/>
-					</PropertyList>
+				<MusicPlaylistContainer Name="MUSIC" ID="{93F59B4B-D2EE-47BB-8F24-F21DB8381286}" ShortID="437989426">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C62605A7-F1D1-48EF-BC75-C545B430BD11}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+							<ObjectRef Name="Musique" ID="{A9557679-4FFD-4395-B428-FC833402E84E}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicTrack Name="seg_mid_03" ID="{8C58A1F2-0574-4861-905F-B8712C3AAF9D}" ShortID="265826043">
+						<MusicSegment Name="MUSIC_PATTERN_2" ID="{DAA5600A-1D73-4B56-9368-AB96230907E7}" ShortID="600155831">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="18000"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C62605A7-F1D1-48EF-BC75-C545B430BD11}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="seg_mid_03" ID="{D4A5A90B-2BA5-48C4-9120-8DC2BA3E5494}" ShortID="58182779">
-									<Language>SFX</Language>
-									<AudioFile>seg_mid_03.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<TransitionList>
-								<MusicTransition Name="Root" ID="{A8C0DA32-5707-4139-81ED-57883446A864}">
-									<PropertyList>
-										<Property Name="IsFolder" Type="bool" Value="True"/>
-									</PropertyList>
-									<TransitionInfo/>
-								</MusicTransition>
-							</TransitionList>
-							<SequenceList>
-								<MusicTrackSequence Name="" ID="{51CDB091-42AA-4B2E-9B67-2797D2747E86}">
-									<ClipList>
-										<MusicClip Name="seg_mid_03" ID="{335E4B35-FD98-4D17-B128-24D0F5C94488}">
+								<MusicTrack Name="ARP 2" ID="{29B90D69-7F69-4382-AD37-F16186DD10C4}" ShortID="876235477">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARP 2" ID="{8349E45E-82E2-4C9A-AFAE-710BF4F6EE9A}" ShortID="497295852">
+											<Language>SFX</Language>
+											<AudioFile>ARP 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{ABFE22E7-5FB0-49FE-9024-7780344D5C6D}" ShortID="611157146">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{450FAFFB-9785-4482-AA3C-1F4B75B0EE73}" ShortID="746893774"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{523055F0-5406-4660-B409-A1090CFE04B1}" ShortID="817619569">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{02822A7B-11DE-4A57-A092-9BB96BA56D28}" ShortID="700988701"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{ADB6F2B0-AC3E-4920-86FF-3161A014072E}" ShortID="613159456">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{C7B68DCA-8956-410F-913E-0B0137C52FB7}" ShortID="286115331"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FA25CDE7-CAB6-4220-A563-59D0BD07755F}">
 											<PropertyList>
-												<Property Name="EndTrimOffset" Type="Real64" Value="27870.9750566893"/>
-												<Property Name="FadeInMode" Type="int16" Value="0"/>
-												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
-											<AudioSourceRef Name="seg_mid_03" ID="{D4A5A90B-2BA5-48C4-9120-8DC2BA3E5494}"/>
-										</MusicClip>
-									</ClipList>
-								</MusicTrackSequence>
-							</SequenceList>
-						</MusicTrack>
-					</ChildrenList>
-					<CueList>
-						<MusicCue Name="Entry Cue" ID="{12C4E097-5846-43B5-B6D5-3216218EA343}"/>
-						<MusicCue Name="Exit Cue" ID="{AEF7621E-EC47-4C2F-842D-C1D101C12E98}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{043650EE-C86B-4A36-ACBA-0FF5A7C3CE42}">
+											<ClipList>
+												<MusicClip Name="ARP 2" ID="{01C3C3CB-DCFB-454A-8ABB-06C59D81FB6B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="ARP 2" ID="{8349E45E-82E2-4C9A-AFAE-710BF4F6EE9A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="BASS 2" ID="{02D5E44A-04E8-4EEF-8F4C-02B941F9E715}" ShortID="46511970">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BASS 2" ID="{D5737B3A-30DE-4D51-BCF7-A25E809D5968}" ShortID="109970788">
+											<Language>SFX</Language>
+											<AudioFile>BASS 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{8F4406F7-E0CB-4C02-A5C8-0F2C09BAABB5}" ShortID="872811344">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{1395B937-6A67-4313-AF7D-4DD9EDC76746}" ShortID="891412340"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{6F008468-5E30-45EF-BE94-88ED6C40EC1D}" ShortID="65445191">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{ACEDA861-A8C0-4943-A3AC-0C6775B9E425}" ShortID="142013333"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{F0CA2560-E687-4B1D-8E1B-36DC767456DE}" ShortID="421666306">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{3C61DC7C-EFCD-400D-A1DA-846A1FC4423F}" ShortID="50933659"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{58F985D5-0120-4FAC-9CBA-B3135450D07E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F4935C83-A63B-4450-8079-5A4A5A48B76F}">
+											<ClipList>
+												<MusicClip Name="BASS 2" ID="{C2E63EE6-FC59-47E2-9628-79F1F1FDF130}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BASS 2" ID="{D5737B3A-30DE-4D51-BCF7-A25E809D5968}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="CLAVES 2" ID="{413A7A94-3113-4A7E-BB6D-47123C19A51F}" ShortID="1053126505">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLAVES 2" ID="{46CE6BD4-6312-4CF8-AB34-9B4467241FDD}" ShortID="763323822">
+											<Language>SFX</Language>
+											<AudioFile>CLAVES 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{DEBBC013-805E-45F6-A0E2-89FB2EDB6956}" ShortID="66548653">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{655CB157-1F09-4CBB-A286-0E607AED709A}" ShortID="356962580">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{1B51B825-8B47-4C98-916D-BA20DF20CE61}" ShortID="997238476">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{2AEC9DEE-A94B-4C26-B979-987F6CC86164}" ShortID="864072701"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{D0AFBB0F-8B0A-44A3-BAA0-39D75C091355}" ShortID="458229885">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{EA5A8DA9-4E71-4736-87D5-45C5EDE70271}" ShortID="471251799"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8FB95C41-D051-44C2-946F-EA689FBC7D3D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4B5816CB-48C5-4E7A-9FA0-B6229230F230}">
+											<ClipList>
+												<MusicClip Name="CLAVES 2" ID="{AAF42748-6C55-4806-A35B-800F3F370F2E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CLAVES 2" ID="{46CE6BD4-6312-4CF8-AB34-9B4467241FDD}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HH 2" ID="{763272EB-8846-46ED-ADC2-0AE7055880C2}" ShortID="955485965">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HH 2" ID="{4AA4C14B-E916-4BED-A73C-44C067CFE472}" ShortID="922221328">
+											<Language>SFX</Language>
+											<AudioFile>HH 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{9E35FFF2-4AB0-4F61-9FBB-90AC8785AA44}" ShortID="622824319">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{7A271DB2-C61F-49B7-B5BB-86CCD15153CB}" ShortID="305862729">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{9D89BA4F-FCCD-487E-A7B0-CF05EE8D708E}" ShortID="443043673">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{70D4AFFA-C59B-4113-8972-F696A56CE331}" ShortID="157424216"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{FFBA88BD-B729-4258-A06F-27D2CE24F353}" ShortID="635933217">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{8F69E630-99CA-4A78-AAF7-46272298FB6B}" ShortID="117535010"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FD5989B7-CAF9-4DB3-A109-38EB6EB95437}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6107C8D3-C294-40F0-9DEF-DF546FF8EA89}">
+											<ClipList>
+												<MusicClip Name="HH 2" ID="{CEAB1E2B-6669-417E-80C0-59F522DCC1DE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HH 2" ID="{4AA4C14B-E916-4BED-A73C-44C067CFE472}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HHO 2" ID="{303611D1-FC24-4D4E-953B-CE0B30DA7863}" ShortID="238638885">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HHO 2" ID="{CA017001-9BC8-40D8-A846-426BCD6125BA}" ShortID="61462538">
+											<Language>SFX</Language>
+											<AudioFile>HHO 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{36FE34F8-1F44-4AA9-8007-CC58B298DC81}" ShortID="672492967">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{64AE1692-2EFD-422E-8B18-4859124272BE}" ShortID="559908281"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{DA05A3D7-B20C-4275-8A65-A96601390FBE}" ShortID="1060372522">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{3907E030-A53F-409A-8553-31A29F119550}" ShortID="416349087"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{6AE1A6A0-E632-4875-A605-1AB25198C47B}" ShortID="294790389">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{253DC98E-79EB-40CC-9706-30F6ADB23213}" ShortID="485480080"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0C0AEAF8-A7BA-4A73-8567-8CAC4D5F4E0A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{54FA7762-CAE7-4DE3-8140-290FF871DE49}">
+											<ClipList>
+												<MusicClip Name="HHO 2" ID="{77A17E95-6CF9-4C02-97D1-32380720CF68}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HHO 2" ID="{CA017001-9BC8-40D8-A846-426BCD6125BA}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="KICK 2" ID="{6C3F8AF5-D7C5-428D-9A0C-7D6FCD0759EA}" ShortID="166720407">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KICK 2" ID="{5CCBF8A2-48B4-4111-B957-3671FB6EC51E}" ShortID="341440210">
+											<Language>SFX</Language>
+											<AudioFile>KICK 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{2914A660-3C74-40A9-973E-83DF82FBFCB6}" ShortID="958196269"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{86B751FB-CD04-41E0-9734-E5916A3DC8FD}" ShortID="573182493"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{F22025A9-228D-406E-95AA-121E2579B670}" ShortID="461240841">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{7F3345E3-EFF0-47F6-B6F9-A95D51DE6A93}" ShortID="735113086"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{C9EFC5A9-83D8-4A89-BADE-AD04907DD2DB}" ShortID="80130058">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{9B476EAE-D60F-440A-BE18-56E196B14313}" ShortID="568452682"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EF88A7B8-EAF4-4D28-9481-0D4258CCB6F6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{D42BC056-FE1D-4BCC-9B9A-10495E3DA239}">
+											<ClipList>
+												<MusicClip Name="KICK 2" ID="{47D33951-04AD-472A-955A-4B6A5A734B0A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KICK 2" ID="{5CCBF8A2-48B4-4111-B957-3671FB6EC51E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="PAD 2" ID="{825BE11B-AA8C-479E-BF28-0967DE9F3795}" ShortID="692033049">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PAD 2" ID="{5C29D54E-0366-444B-9AFC-98618E6B344E}" ShortID="885983625">
+											<Language>SFX</Language>
+											<AudioFile>PAD 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{279A5242-4E91-4574-BC39-C01DF9797078}" ShortID="728515127"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{83557991-3F4E-41E7-9E85-83CE7FC18D3A}" ShortID="417601454"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{0E40A119-E1E3-458A-A81C-4CB5A061A32B}" ShortID="462749905">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{3470EA97-5742-4960-B39F-CB7A60B6DF4F}" ShortID="835096227"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{E7831E50-E4C7-4CBD-A4B1-B0B9FDC9C25B}" ShortID="191147450"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{DD349941-4D30-46C8-9C34-0CFCEA8620BF}" ShortID="73599169"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{79CDC552-855D-4735-A86B-6B42E1514DF2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{1AA849FA-EA69-4092-A8FC-6C9CA2F064B9}">
+											<ClipList>
+												<MusicClip Name="PAD 2" ID="{272EB1C2-9DCF-4FD0-9477-5772A4344E19}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="PAD 2" ID="{5C29D54E-0366-444B-9AFC-98618E6B344E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="SNARE 2" ID="{84EC896C-A5A9-4496-96CF-EE0B9806C1A2}" ShortID="640893936">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SNARE 2" ID="{E8A4F633-FF28-41EE-BFCB-B0B30FC093EF}" ShortID="79528375">
+											<Language>SFX</Language>
+											<AudioFile>SNARE 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{7B0AE1E4-38A0-4AC4-A487-DED3FC16A2C6}" ShortID="947134781">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{DF5E3803-CAB5-465A-9A29-66C8486E751D}" ShortID="212197846">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{DECAFF63-9537-48F8-8DD3-3E9307DD93F8}" ShortID="219928473">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{114AC73C-4802-426C-95B8-D6F8ACA8FFDE}" ShortID="193650248"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{176F1D0D-4A25-44A5-946E-161D719D2093}" ShortID="883126924">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{7AB98EFA-5288-431D-8D29-FE1B20E699C8}" ShortID="868964936">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1F365363-4418-484F-8483-F7806B78EED1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5DAEED80-1B90-41F2-8EE0-BCABBC54F1BF}">
+											<ClipList>
+												<MusicClip Name="SNARE 2" ID="{2A798E1A-02B6-4E3D-80DB-8DD42D06A69A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="SNARE 2" ID="{E8A4F633-FF28-41EE-BFCB-B0B30FC093EF}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{9CE81725-3322-48BD-9DB1-B82E6FB9BAA4}"/>
+								<MusicCue Name="Exit Cue" ID="{512F0D1D-B18C-4D95-8BF3-663B3858B49A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="MUSIC_PATTERN_1" ID="{40DB4BB8-9F1B-4E08-A3BA-FBCF11311C8B}" ShortID="566038966">
 							<PropertyList>
-								<Property Name="CueType" Type="int16" Value="1"/>
-								<Property Name="TimeMs" Type="Real64" Value="27870.9750566893"/>
+								<Property Name="EndPosition" Type="Real64" Value="19625"/>
 							</PropertyList>
-						</MusicCue>
-					</CueList>
-				</MusicSegment>
-				<MusicSegment Name="Shmupv2_1" ID="{FDA3FD10-1F02-4A7D-8837-8AE637A9969A}" ShortID="656306883">
-					<PropertyList>
-						<Property Name="EndPosition" Type="Real64" Value="48000"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-18</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C62605A7-F1D1-48EF-BC75-C545B430BD11}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<MusicTrack Name="Shmupv2_1" ID="{0C5DC551-C7D5-4E9D-A7FB-16D7D834E4BB}" ShortID="97649024">
 							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C62605A7-F1D1-48EF-BC75-C545B430BD11}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Shmupv2_1" ID="{FFC84554-A7BB-4D25-9C11-10A6D69D792F}" ShortID="555789630">
-									<Language>SFX</Language>
-									<AudioFile>Shmupv2_1.wav</AudioFile>
-								</AudioFileSource>
+								<MusicTrack Name="ARP 1" ID="{C507009B-7D2E-4148-B4FB-465409D06B09}" ShortID="995780127">
+									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{3B72F831-E863-4EE0-84F7-3C81E7702B51}" WorkUnitID="{C2D4868A-B976-4D49-A030-13EE6BB021F7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}" WorkUnitID="{C2D4868A-B976-4D49-A030-13EE6BB021F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARP 1" ID="{AA855E1F-2D54-4BB3-8ED0-978DF58145A3}" ShortID="87415755">
+											<Language>SFX</Language>
+											<AudioFile>ARP 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{5B53C7E3-48CC-435A-9E1B-EA684B6D238C}" ShortID="631770498">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{CFED354A-7B74-478E-AF8F-61E6B8955587}" ShortID="703365706"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{51611316-A292-452E-82A3-15EE897CDC74}" ShortID="951404296">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{A69525AE-031B-4662-9A69-810E132423CD}" ShortID="746105779"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{E842EED1-3490-49FB-8C49-88CF87214199}" ShortID="876621140">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{B068E2F7-F780-463B-BD41-19F14C006324}" ShortID="101013581"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{23162C6E-B86C-4ADD-8D93-3060B15E65B5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{873494F7-3F47-42BC-BAAD-80143014FF33}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9DF8B0EE-9F8E-4443-B417-56CEF41384E2}">
+											<ClipList>
+												<MusicClip Name="ARP 1" ID="{1014DABF-63B0-4A62-885A-E590A184E69D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="ARP 1" ID="{AA855E1F-2D54-4BB3-8ED0-978DF58145A3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="BASS 1" ID="{42A01D96-1C3D-4D70-BC0F-0196874EAF6B}" ShortID="736464457">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BASS 1" ID="{8963BDC5-9549-4EF0-83BB-535A2870EFA1}" ShortID="12364083">
+											<Language>SFX</Language>
+											<AudioFile>BASS 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{0D812B27-583A-4410-9FCC-2FEC98C21858}" ShortID="168103537">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{6B8AD477-3FBC-4A99-8609-6208E698F3B5}" ShortID="372509282"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{F2E38FC3-DAC2-455E-862B-F753638F4DBE}" ShortID="469493499">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{D615122F-E34D-4DC2-A831-AB4BF94623C8}" ShortID="238527525"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{F1F318D8-72A8-4039-901E-3F54095EBCA6}" ShortID="350075291">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{BEB1F08B-FD35-4D1D-8425-B20A110482AE}" ShortID="997656496"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6BD21B81-0FAA-4A25-AA11-062412AB85BF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C1456835-8F30-4711-8764-58CB8A2AF0E9}">
+											<ClipList>
+												<MusicClip Name="BASS 1" ID="{E2D8AB5E-C129-4331-AA16-E0FB36D3DFE6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BASS 1" ID="{8963BDC5-9549-4EF0-83BB-535A2870EFA1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="CLAVES 1" ID="{E65B9C80-42CA-4123-8599-5AB5AC389B95}" ShortID="1041994786">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLAVES 1" ID="{EC1D6CE9-E8C2-40A5-843E-B81E0A2766BE}" ShortID="701364059">
+											<Language>SFX</Language>
+											<AudioFile>CLAVES 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{22ECF7FB-7E41-47E7-8DA6-9D49CAB6DFA2}" ShortID="933966199">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{FFC28FA5-1EC5-47D2-9ECF-9661AC0011F6}" ShortID="157802951">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{41ED64AB-A220-4296-9537-715BDD28CA77}" ShortID="756057716">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{82DFC66B-3899-4CAA-8E72-B74092C0617C}" ShortID="164702229"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{92C7CDFB-2B92-4382-83B4-88C6AFB2F32E}" ShortID="716253113">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{C53F433B-0498-4DBE-85CD-49436966A9CB}" ShortID="868392250"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2065AFAF-95E3-4D3D-98CB-BEB1CED99AD9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{778AAE55-F213-43E1-9498-EA1E8570CA07}">
+											<ClipList>
+												<MusicClip Name="CLAVES 1" ID="{637B5B47-C49D-4974-806B-63FB47B1B73F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CLAVES 1" ID="{EC1D6CE9-E8C2-40A5-843E-B81E0A2766BE}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HH 1" ID="{57DE4391-8B31-4C5B-AEAA-277D335EAD96}" ShortID="819503745">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HH 1" ID="{BE157A29-3F8E-4A9D-B0E0-7377717C4A03}" ShortID="121370771">
+											<Language>SFX</Language>
+											<AudioFile>HH 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{ACD01B88-96E8-42AD-9CCC-D3CA96878CA6}" ShortID="661097852">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{63DB1237-A3CC-4CE6-BD1F-915353B79311}" ShortID="263268387">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{3D7EF36C-6780-4615-84E7-86AA72C38FBE}" ShortID="94518409">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{9FD71606-CA32-478B-AC0F-C4CCC8ABB9CD}" ShortID="95543550"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{DA7A8996-AA78-4BE5-A14A-6BAA99C0515E}" ShortID="841983164">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{E51D1B1F-DBB4-48C9-9C36-579A3A0B7301}" ShortID="865543452"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{39E1693C-218C-4EE1-9A1B-ED2750F2DE88}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{ABD103B2-4EEE-4171-9C5A-18AED98C7850}">
+											<ClipList>
+												<MusicClip Name="HH 1" ID="{0310F879-A4F5-419E-807E-E5BD2B99ACCB}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HH 1" ID="{BE157A29-3F8E-4A9D-B0E0-7377717C4A03}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HHO 1" ID="{9B718546-85F1-4D04-94D9-67D43E5AE11F}" ShortID="20788017">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HHO 1" ID="{658304F9-95B2-4AE3-A537-A56106EB9A89}" ShortID="511731914">
+											<Language>SFX</Language>
+											<AudioFile>HHO 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{7440513A-A1D3-4D65-B5E4-62C33B4738D8}" ShortID="814361568">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{551B1038-9C1A-4EBF-8EB3-FA95D9DFDDF2}" ShortID="861207501"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{CE4042F5-6D60-4154-AFA6-13483DC6599F}" ShortID="767803876">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{57C11889-39F1-4DE4-A3F9-70B45180A216}" ShortID="599543076"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{4979CF97-0349-4164-AF16-3E45302DAEB6}" ShortID="16729467">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{1DDD7BE3-575D-4851-9466-61F60C4BE47E}" ShortID="109305277"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E588F473-6BF9-47B3-85F8-81C6D375CE05}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E642C389-61D8-4756-A3FF-E81BCB82B47A}">
+											<ClipList>
+												<MusicClip Name="HHO 1" ID="{5BF9F385-C8D4-4F21-85A7-9ECD625C905C}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HHO 1" ID="{658304F9-95B2-4AE3-A537-A56106EB9A89}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="KICK 1" ID="{D4DC357E-08BE-4058-9DB9-EDD9563EDA36}" ShortID="1060445301">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KICK 1" ID="{96D995A7-F735-425F-B6D5-4110544356E4}" ShortID="994881208">
+											<Language>SFX</Language>
+											<AudioFile>KICK 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{E69D6129-23F3-4427-AA85-08AB017EC411}" ShortID="797189725"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{58AAE46C-43A7-4386-B832-5750A99AA42C}" ShortID="393011433"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{45ABFF9C-C040-4F0D-9DF6-8C9DA6DB9F24}" ShortID="625127523">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{43D53848-0A1C-452A-BDEB-9A364B4C4DFE}" ShortID="910212376"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{5222886A-CE5F-4E14-93CF-DE5D37381AA1}" ShortID="935985905">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{9607ADEF-6A90-460E-BD1A-94867F566357}" ShortID="426860759"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D943B3C0-7F8E-4C2F-856A-75DD1220BA46}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{FFA52434-18BB-4EF7-AC1F-220C0564FB36}">
+											<ClipList>
+												<MusicClip Name="KICK 1" ID="{B8A8F017-D56E-4CB0-9A6C-7322000B1F5D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KICK 1" ID="{96D995A7-F735-425F-B6D5-4110544356E4}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="PAD 1" ID="{F121792A-FF1A-45B5-A4EE-8557E29D9DF4}" ShortID="794412154">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PAD 1" ID="{3DB9889E-FCEB-4ABF-8953-2F649FECD458}" ShortID="372272242">
+											<Language>SFX</Language>
+											<AudioFile>PAD 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{D6219F1E-4EB6-40B1-AD17-98B298E1B316}" ShortID="762757188"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{A1E732D3-085C-4639-9709-8F977E2E3793}" ShortID="200346019"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{4A558D54-2903-45FE-AB92-26AD302153B7}" ShortID="255568855">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{B06268B2-6C81-4A4D-84E1-6AD285522799}" ShortID="191413317"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{0C41E9D9-5556-45A1-B423-AB8BCE33F14D}" ShortID="433888583"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{3A283C1C-570C-4B2C-8ADE-CAE158AFC8FE}" ShortID="164807517"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D2ABF887-0980-4685-9AF0-A0143345B67B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C99FBE11-20C8-4749-9A23-BFDB7414678B}">
+											<ClipList>
+												<MusicClip Name="PAD 1" ID="{4A51ED16-A70A-4D5F-80D5-5CD933744487}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="PAD 1" ID="{3DB9889E-FCEB-4ABF-8953-2F649FECD458}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="SNARE 1" ID="{1B0D9FA3-565E-400A-AA1A-106BAF9C33A7}" ShortID="408569123">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SNARE 1" ID="{9F229388-F06B-4083-AA5C-1C2129092C56}" ShortID="793050158">
+											<Language>SFX</Language>
+											<AudioFile>SNARE 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{FBD2EED2-C044-4078-ADE6-5EDD1B100BED}" ShortID="27276792">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{47D3E937-F12C-4E14-9379-5FA152BDB228}" ShortID="971267687">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{DE53A0E3-A7C6-4E07-BAB8-9E1E6E7BBCD8}" ShortID="421347527">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{141F2535-6493-4995-8C72-4DC24DBC3D22}" ShortID="988678751"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{9B4B2D22-D189-4874-B487-22E1BA93A7BB}" ShortID="116113871">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{6DF6D006-6885-436A-9774-B3DAC1E8ABF2}" ShortID="495292010">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AA5FD459-6EA9-4C3B-9C4D-B2A43B9F449C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A0DC488D-27E9-40ED-A2E8-1D541ED34E62}">
+											<ClipList>
+												<MusicClip Name="SNARE 1" ID="{85000551-3A39-40B8-A32B-23E15E506D73}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="SNARE 1" ID="{9F229388-F06B-4083-AA5C-1C2129092C56}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
 							</ChildrenList>
-							<TransitionList>
-								<MusicTransition Name="Root" ID="{88D28E83-058D-476F-866B-7129967E3206}">
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8F21E6F3-1735-4189-B01D-B19BBE87FA13}"/>
+								<MusicCue Name="Exit Cue" ID="{B56877B4-8EF4-417D-B478-E6CD1E64AA02}">
 									<PropertyList>
-										<Property Name="IsFolder" Type="bool" Value="True"/>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
 									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="MUSIC_PATTERN_3" ID="{5ADE6CE0-C537-4117-A465-D78FAD407C85}" ShortID="247231034">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="18000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C62605A7-F1D1-48EF-BC75-C545B430BD11}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="ARP 3" ID="{035C662B-2F97-4513-BB4C-5B7402E12F45}" ShortID="935197942">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ARP 3" ID="{A996907D-1EA8-4BE3-86AD-31CE460B227B}" ShortID="245574607">
+											<Language>SFX</Language>
+											<AudioFile>ARP 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{2845693F-F8C0-4594-B476-F553FBB263DF}" ShortID="300396401">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{759DC573-5730-4D48-ADC1-DFCFA7DC729C}" ShortID="308835579"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{898F25AA-0896-45FD-B043-714BF4A70F0D}" ShortID="545130897">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{F4CAE254-3F6A-488D-8D05-CE1F75DB6EFA}" ShortID="425819185"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{FE568A76-0FFA-4F54-B2C7-5EE55D2E32C4}" ShortID="424152339">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{E95D6AF1-48A4-403A-BDF6-77C770697B1C}" ShortID="424839549"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CB15F136-B4EB-418B-91FC-25DE78F9EB09}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{79481CC8-48B1-47D4-8EE1-57E4C786F80A}">
+											<ClipList>
+												<MusicClip Name="ARP 3" ID="{4EF4D0D0-F079-425A-A970-56F141A2021C}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="ARP 3" ID="{A996907D-1EA8-4BE3-86AD-31CE460B227B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="BASS 3" ID="{52B05C4D-A5C0-4C64-BFAE-C3D0BDAFB0C0}" ShortID="734945680">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BASS 3" ID="{DA9534CB-1514-4006-8193-CEEACEFEE3DB}" ShortID="440393619">
+											<Language>SFX</Language>
+											<AudioFile>BASS 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{7ADABA5B-14C2-41EB-9ABE-C57258F1668F}" ShortID="433715329">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{B8A9A8CB-EBE9-456E-A3B4-A0E0BE951A25}" ShortID="489165240"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{374431D4-1898-49EC-9987-6206DDE3B121}" ShortID="217539792">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{D8A553EC-9975-4132-9E84-D30F6FD9CFAE}" ShortID="14728608"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{4492FDAD-0432-4F0A-8684-2809CFFE2098}" ShortID="724295601">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{71292A44-73C7-480F-B180-3F5DF9CF07E6}" ShortID="983309321"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E27C5BE4-9B1F-46D9-AC36-61568B11A8EA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C0B4F718-E6C6-45B3-991A-C22395E4889B}">
+											<ClipList>
+												<MusicClip Name="BASS 3" ID="{1E20B75C-6BCF-49EB-A4D3-709ECEEF2277}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BASS 3" ID="{DA9534CB-1514-4006-8193-CEEACEFEE3DB}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="CLAVES 3" ID="{BB7C53C6-FA9C-448C-9CA3-AFCCA69962F5}" ShortID="685777190">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLAVES 3" ID="{4070C477-1F09-47C9-AF7D-E0DF085D3A19}" ShortID="717239442">
+											<Language>SFX</Language>
+											<AudioFile>CLAVES 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{1C951E03-3EC4-4E3C-8C46-BE406D16F7D5}" ShortID="30842181">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{C1980BE5-A477-4B4A-93B9-6B9D44AEA2DE}" ShortID="78557976">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{73A88A12-E65F-4104-92A9-252BA0F5A1EC}" ShortID="757110819">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{F72B70B4-D97A-463A-8EBB-432B974446CB}" ShortID="661817394"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{703247E7-8775-4B59-A124-D3F49FAAE12E}" ShortID="1005831411">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{AD2D6938-6002-4928-97F3-777B355109BC}" ShortID="1070465874"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EF079365-241F-47BA-A90F-2081510F6AD7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{70BCDEC5-547A-4929-B38A-6DF91B9C4F79}">
+											<ClipList>
+												<MusicClip Name="CLAVES 3" ID="{D92C0CF5-718B-4C45-8618-DD13A03BDBA9}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="CLAVES 3" ID="{4070C477-1F09-47C9-AF7D-E0DF085D3A19}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HH 3" ID="{2C0D8D31-F332-4FD1-9F31-7B2610DFF47D}" ShortID="247353885">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HH 3" ID="{04C59BF7-4B4B-46E7-ACE2-2A4A11A2E50D}" ShortID="1012871278">
+											<Language>SFX</Language>
+											<AudioFile>HH 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{5082D5D3-FAB7-46BD-A6EC-997FCE71512C}" ShortID="655230199">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{024FCC0E-C84A-47E6-AF91-12AC0F80294F}" ShortID="316083145">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{1DCE442C-11D1-4FE9-8F54-46D38916B2EE}" ShortID="445651912">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{D003557A-EF40-48D6-8F73-D644F2264FE5}" ShortID="180137266"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{00625C4B-01D6-465B-A367-A2FCBF836F4E}" ShortID="45846057">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{FF346C34-ED6B-4772-84EF-5E1FFB504C16}" ShortID="1019798730"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{898764CF-9301-4A28-8425-9D04EB101CCD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2A5E04AB-78E9-4381-AD5C-E86ED26E495C}">
+											<ClipList>
+												<MusicClip Name="HH 3" ID="{A3CBCBDF-9D0A-49F9-A67E-BDF01E4A4F7F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HH 3" ID="{04C59BF7-4B4B-46E7-ACE2-2A4A11A2E50D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HHO 3" ID="{2624B75C-750D-4806-B810-20528BF347D1}" ShortID="757644382">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HHO 3" ID="{EBEE1B6B-96B1-41D6-8A1F-95B10D3F65C2}" ShortID="675060451">
+											<Language>SFX</Language>
+											<AudioFile>HHO 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{E241AC3D-BE22-4258-9C5E-2833A0785015}" ShortID="146986607">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{4E55A805-6D1A-4906-A93E-FF8393D0E1E9}" ShortID="703755743"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{6946A892-B3F9-41FF-A05F-9DCFAD64A01F}" ShortID="471527396">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{F0E8893D-CDCF-4EE0-B85A-7447B4756A91}" ShortID="161665606"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{8B9D62A8-DE4E-45F2-9B46-D5C421BD6AAC}" ShortID="312496230">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{B87EAA1D-C49A-4181-ABB6-2CDF56595E36}" ShortID="680844342"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{333B63F9-953C-46CA-AFC0-49F3B6BCF45A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CF1AB49F-4255-41C3-A082-3CE0BB21F260}">
+											<ClipList>
+												<MusicClip Name="HHO 3" ID="{C02B42B6-DF9C-4298-B957-EA7C2A07C807}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HHO 3" ID="{EBEE1B6B-96B1-41D6-8A1F-95B10D3F65C2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="KICK 3" ID="{852B403D-0C01-469E-B4FB-FB9C369ED5C1}" ShortID="690086734">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KICK 3" ID="{26D98786-24B2-4946-9515-20746F7F6EFB}" ShortID="475145297">
+											<Language>SFX</Language>
+											<AudioFile>KICK 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{3E9B71C4-C22A-4E60-AC2A-E9401056BB77}" ShortID="136583920"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{0669212F-12AE-4D4E-B6B0-F573C8104085}" ShortID="124354277"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{D9D891B4-7279-4CC9-9A7C-3D4584564877}" ShortID="138089165">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{633A0DEB-B0AE-44F3-BCD8-0443DD0F61F5}" ShortID="147905319"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{14E45B43-6BB0-4B07-90A5-89311E82199A}" ShortID="81988133">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{A04ED3B3-269B-4F8C-90A6-40ED2491EC5F}" ShortID="682878224"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E57BD106-920B-4BFE-8DAD-253BBE5B79D6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{FADDF048-08A9-4D3E-8F74-C2365F1B4374}">
+											<ClipList>
+												<MusicClip Name="KICK 3" ID="{75FB7B2E-016E-4F63-AD1F-5C826F53FB56}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="KICK 3" ID="{26D98786-24B2-4946-9515-20746F7F6EFB}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="PAD 3" ID="{E5B658CB-2495-423E-8B6E-A8F6250CA19C}" ShortID="217162948">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PAD 3" ID="{4C30EEC6-5466-4634-AAD1-2A4823200D36}" ShortID="271952163">
+											<Language>SFX</Language>
+											<AudioFile>PAD 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{E1B3C6A4-F44E-4C8C-82DF-81F36A299DE1}" ShortID="155474014"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{F589C7B4-D8F2-4267-8A3A-DD5C0C851230}" ShortID="591066365"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{447422DF-91AB-421B-8DEA-5FA96DF7F525}" ShortID="319198709">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{9C4C5752-6B11-40B4-B8B0-8EEFDAE5661E}" ShortID="960088802"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{13A9FC65-82DB-4B17-992F-237B3941EDF7}" ShortID="44218531"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{81ED1678-4209-49CE-A066-C2BCC98304AA}" ShortID="279379686"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{690446FA-C855-49B0-AF0F-AFC339F7DA48}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{88FDDCA7-DE2B-4B04-A489-323B01DD1896}">
+											<ClipList>
+												<MusicClip Name="PAD 3" ID="{56262E19-F1BB-4A15-AD8A-069DE2C43F43}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="PAD 3" ID="{4C30EEC6-5466-4634-AAD1-2A4823200D36}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="SNARE 3" ID="{2E37C8D3-B3F8-4256-A290-56C448A71F72}" ShortID="563465371">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SNARE 3" ID="{06F4C3E7-8249-487A-B37B-D897CC7BFDBC}" ShortID="459902428">
+											<Language>SFX</Language>
+											<AudioFile>SNARE 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+												<State Name="" ID="{61C869F2-C028-4A79-986C-7CE0B55F6959}" ShortID="870498588">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+												<State Name="" ID="{C47C47D8-DA7F-41E8-84AC-A47F3D6263CA}" ShortID="396511402">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+												<State Name="" ID="{791689AE-6BBB-4DB3-AE6D-FE0E88A460E9}" ShortID="641965225">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+												<State Name="" ID="{635DAA1D-9DDD-47AA-98B1-2C5EF066A84B}" ShortID="1019927462"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+												<State Name="" ID="{9795B863-1585-406A-BFE0-88CD0DDC747D}" ShortID="121963616">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+												<State Name="" ID="{2B318A2A-AD0D-4EFD-80F2-12BA4D65465A}" ShortID="420475032">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9C2139AE-9B01-4166-86DB-7E3122A156AF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{D12B6F0B-8076-40ED-8229-1853CFC8D8CD}">
+											<ClipList>
+												<MusicClip Name="SNARE 3" ID="{8C626DF5-89C8-4284-877A-5551C7CAD813}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="SNARE 3" ID="{06F4C3E7-8249-487A-B37B-D897CC7BFDBC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{65229489-900C-4C33-A39C-3DA85DB5EA22}"/>
+								<MusicCue Name="Exit Cue" ID="{FC77B990-565D-4F8A-8542-8A6C6B98E015}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{E893CCDA-4C91-4ECC-BA54-97EB74CFD43B}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{C57CA66B-AFD1-4660-B707-14705CBC3776}">
 									<TransitionInfo/>
 								</MusicTransition>
-							</TransitionList>
-							<SequenceList>
-								<MusicTrackSequence Name="" ID="{B298807A-6A9F-460D-91E9-33438B133CAB}">
-									<ClipList>
-										<MusicClip Name="Shmupv2_1" ID="{756682CD-38A0-4B76-9D36-AB1890DAA11C}">
-											<PropertyList>
-												<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
-												<Property Name="FadeInMode" Type="int16" Value="0"/>
-												<Property Name="FadeOutMode" Type="int16" Value="0"/>
-											</PropertyList>
-											<AudioSourceRef Name="Shmupv2_1" ID="{FFC84554-A7BB-4D25-9C11-10A6D69D792F}"/>
-										</MusicClip>
-									</ClipList>
-								</MusicTrackSequence>
-							</SequenceList>
-						</MusicTrack>
-					</ChildrenList>
-					<CueList>
-						<MusicCue Name="Entry Cue" ID="{DA7E23DD-73C7-4266-A96F-0284E3F8ACD0}"/>
-						<MusicCue Name="Exit Cue" ID="{F83843F9-2E25-4B36-B3CB-BD541765CA7E}">
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{CC5E2F1F-32EC-44F3-883F-753522DD3C50}" ShortID="1053694976">
 							<PropertyList>
-								<Property Name="CueType" Type="int16" Value="1"/>
-								<Property Name="TimeMs" Type="Real64" Value="48000"/>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="3"/>
 							</PropertyList>
-						</MusicCue>
-					</CueList>
-				</MusicSegment>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{C2830244-63CD-43CD-AC80-53637B80E2B1}" ShortID="824374454">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MUSIC_PATTERN_1" ID="{40DB4BB8-9F1B-4E08-A3BA-FBCF11311C8B}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{69329E2E-8FBB-4FD2-84BE-7ADB085E7EE8}" ShortID="852089882">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MUSIC_PATTERN_2" ID="{DAA5600A-1D73-4B56-9368-AB96230907E7}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{B1C6B861-859D-4643-AEE9-ED1255795175}" ShortID="648142575">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MUSIC_PATTERN_3" ID="{5ADE6CE0-C537-4117-A465-D78FAD407C85}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

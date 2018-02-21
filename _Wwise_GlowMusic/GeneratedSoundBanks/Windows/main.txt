@@ -10,6 +10,118 @@ Event	ID	Name			Wwise Object Path	Notes
 	2578549300	e_AbstractFlowerKick			\Default Work Unit\e_AbstractFlowerKick	
 	4078906923	e_SphereExplosion			\Default Work Unit\e_SphereExplosion	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2782712965	Level			\Default Work Unit\Level	
+
+State	ID	Name	State Group			Notes
+	529726532	end	Level			
+	748895195	None	Level			
+	1054310547	s_L5_GrooveTutti	Level			
+	1330904208	s_L3_AbstractFlower	Level			
+	2119280931	s_L2_ShereRich	Level			
+	3196405276	s_L4_Groove	Level			
+	4210244680	s_L1_ShereSimple	Level			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	16729467	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HHO 1		
+	27276792	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		
+	30842181	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\CLAVES 3		
+	45846057	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HH 3		
+	65445191	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\BASS 2		
+	66548653	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\CLAVES 2		
+	78557976	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\CLAVES 3		
+	80130058	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\KICK 2		
+	81988133	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\KICK 3		
+	94518409	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HH 1		
+	116113871	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		
+	121963616	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\SNARE 3		
+	138089165	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\KICK 3		
+	146986607	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HHO 3		
+	157802951	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\CLAVES 1		
+	168103537	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\BASS 1		
+	212197846	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\SNARE 2		
+	217539792	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\BASS 3		
+	219928473	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\SNARE 2		
+	255568855	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\PAD 1		
+	263268387	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HH 1		
+	294790389	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HHO 2		
+	300396401	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\ARP 3		
+	305862729	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HH 2		
+	312496230	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HHO 3		
+	316083145	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HH 3		
+	319198709	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\PAD 3		
+	350075291	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\BASS 1		
+	356962580	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\CLAVES 2		
+	396511402	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\SNARE 3		
+	420475032	s_L4_Groove	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\SNARE 3		
+	421347527	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		
+	421666306	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\BASS 2		
+	424152339	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\ARP 3		
+	433715329	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\BASS 3		
+	443043673	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HH 2		
+	445651912	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HH 3		
+	458229885	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\CLAVES 2		
+	461240841	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\KICK 2		
+	462749905	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\PAD 2		
+	469493499	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\BASS 1		
+	471527396	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HHO 3		
+	495292010	s_L4_Groove	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		
+	545130897	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\ARP 3		
+	611157146	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\ARP 2		
+	613159456	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\ARP 2		
+	622824319	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HH 2		
+	625127523	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\KICK 1		
+	631770498	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\ARP 1		
+	635933217	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HH 2		
+	641965225	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\SNARE 3		
+	655230199	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HH 3		
+	661097852	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HH 1		
+	672492967	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HHO 2		
+	716253113	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\CLAVES 1		
+	724295601	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\BASS 3		
+	756057716	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\CLAVES 1		
+	757110819	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\CLAVES 3		
+	767803876	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HHO 1		
+	814361568	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HHO 1		
+	817619569	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\ARP 2		
+	841983164	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HH 1		
+	868964936	s_L4_Groove	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\SNARE 2		
+	870498588	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\SNARE 3		
+	872811344	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\BASS 2		
+	876621140	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\ARP 1		
+	883126924	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\SNARE 2		
+	933966199	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\CLAVES 1		
+	935985905	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\KICK 1		
+	947134781	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\SNARE 2		
+	951404296	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\ARP 1		
+	971267687	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		
+	997238476	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\CLAVES 2		
+	1005831411	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\CLAVES 3		
+	1060372522	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HHO 2		
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	555789630	Shmupv2_1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\Shmupv2_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Shmupv2_1\Shmupv2_1		8467488
+	12364083	BASS 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\BASS 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\BASS 1		3456144
+	61462538	HHO 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\HHO 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HHO 2		3456144
+	79528375	SNARE 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\SNARE 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\SNARE 2		3456144
+	87415755	ARP 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\ARP 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\ARP 1		3456144
+	109970788	BASS 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\BASS 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\BASS 2		3456144
+	121370771	HH 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\HH 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HH 1		3456144
+	245574607	ARP 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\ARP 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\ARP 3		3175344
+	271952163	PAD 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\PAD 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\PAD 3		3456144
+	341440210	KICK 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\KICK 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\KICK 2		3456144
+	372272242	PAD 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\PAD 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\PAD 1		3456144
+	440393619	BASS 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\BASS 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\BASS 3		3456144
+	459902428	SNARE 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\SNARE 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\SNARE 3		3456144
+	475145297	KICK 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\KICK 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\KICK 3		3456144
+	497295852	ARP 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\ARP 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\ARP 2		3456144
+	511731914	HHO 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\HHO 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HHO 1		3456144
+	675060451	HHO 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\HHO 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HHO 3		3456144
+	701364059	CLAVES 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\CLAVES 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\CLAVES 1		3456144
+	717239442	CLAVES 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\CLAVES 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\CLAVES 3		3456144
+	763323822	CLAVES 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\CLAVES 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\CLAVES 2		3456144
+	793050158	SNARE 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\SNARE 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		3456144
+	885983625	PAD 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\PAD 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\PAD 2		3456144
+	922221328	HH 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\HH 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HH 2		3456144
+	994881208	KICK 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\KICK 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\KICK 1		3456144
+	1012871278	HH 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Windows\SFX\HH 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HH 3		3456144
 

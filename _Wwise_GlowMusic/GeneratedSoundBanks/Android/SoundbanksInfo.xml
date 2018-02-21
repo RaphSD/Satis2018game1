@@ -33,9 +33,101 @@
 				<Event Id="521189448" Name="e_SphereKick" ObjectPath="\Events\Default Work Unit\e_SphereKick"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="555789630" Language="SFX">
-					<ShortName>Shmupv2_1.wav</ShortName>
-					<Path>SFX/Shmupv2_1_F17FB28C.wem</Path>
+				<File Id="12364083" Language="SFX">
+					<ShortName>BASS 1.wav</ShortName>
+					<Path>SFX/BASS 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="61462538" Language="SFX">
+					<ShortName>HHO 2.wav</ShortName>
+					<Path>SFX/HHO 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="79528375" Language="SFX">
+					<ShortName>SNARE 2.wav</ShortName>
+					<Path>SFX/SNARE 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="87415755" Language="SFX">
+					<ShortName>ARP 1.wav</ShortName>
+					<Path>SFX/ARP 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="109970788" Language="SFX">
+					<ShortName>BASS 2.wav</ShortName>
+					<Path>SFX/BASS 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="121370771" Language="SFX">
+					<ShortName>HH 1.wav</ShortName>
+					<Path>SFX/HH 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="245574607" Language="SFX">
+					<ShortName>ARP 3.wav</ShortName>
+					<Path>SFX/ARP 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="271952163" Language="SFX">
+					<ShortName>PAD 3.wav</ShortName>
+					<Path>SFX/PAD 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="341440210" Language="SFX">
+					<ShortName>KICK 2.wav</ShortName>
+					<Path>SFX/KICK 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="372272242" Language="SFX">
+					<ShortName>PAD 1.wav</ShortName>
+					<Path>SFX/PAD 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="440393619" Language="SFX">
+					<ShortName>BASS 3.wav</ShortName>
+					<Path>SFX/BASS 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="459902428" Language="SFX">
+					<ShortName>SNARE 3.wav</ShortName>
+					<Path>SFX/SNARE 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="475145297" Language="SFX">
+					<ShortName>KICK 3.wav</ShortName>
+					<Path>SFX/KICK 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="497295852" Language="SFX">
+					<ShortName>ARP 2.wav</ShortName>
+					<Path>SFX/ARP 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="511731914" Language="SFX">
+					<ShortName>HHO 1.wav</ShortName>
+					<Path>SFX/HHO 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="675060451" Language="SFX">
+					<ShortName>HHO 3.wav</ShortName>
+					<Path>SFX/HHO 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="701364059" Language="SFX">
+					<ShortName>CLAVES 1.wav</ShortName>
+					<Path>SFX/CLAVES 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="717239442" Language="SFX">
+					<ShortName>CLAVES 3.wav</ShortName>
+					<Path>SFX/CLAVES 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="763323822" Language="SFX">
+					<ShortName>CLAVES 2.wav</ShortName>
+					<Path>SFX/CLAVES 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="793050158" Language="SFX">
+					<ShortName>SNARE 1.wav</ShortName>
+					<Path>SFX/SNARE 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="885983625" Language="SFX">
+					<ShortName>PAD 2.wav</ShortName>
+					<Path>SFX/PAD 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="922221328" Language="SFX">
+					<ShortName>HH 2.wav</ShortName>
+					<Path>SFX/HH 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="994881208" Language="SFX">
+					<ShortName>KICK 1.wav</ShortName>
+					<Path>SFX/KICK 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="1012871278" Language="SFX">
+					<ShortName>HH 3.wav</ShortName>
+					<Path>SFX/HH 3_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

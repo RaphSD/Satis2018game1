@@ -9,6 +9,70 @@
 							<ObjectRef Name="System" ID="{F5402079-F7DA-418B-8C27-F3763B5C9CDD}" WorkUnitID="{86701601-A429-42E3-8724-B56219F807CF}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Musique" ID="{A9557679-4FFD-4395-B428-FC833402E84E}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{CC7C3264-1273-4FF3-B97F-FDD515A9ED27}" ShortID="359915501">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="EnergyTime" ID="{F5331F68-3540-4664-A874-A63327DCEFE9}" WorkUnitID="{2557E156-6F64-47E5-9CFD-F0261F6C46E4}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AFFA8FD3-6D91-4312-829C-88AA809D0363}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0.04866</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>30</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="New_Wwise_Parametric_EQ_01" ID="{F0E35099-0FF4-4D6C-874C-929155BA388D}" WorkUnitID="{9ABBC2E3-D7F8-4262-A89B-3F3DB20C31B5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="REVERB" ID="{EB279482-3E3E-4923-BA0D-94E61E3C59A3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<AuxBus Name="REVERB" ID="{EB279482-3E3E-4923-BA0D-94E61E3C59A3}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="New_Wwise_RoomVerb" ID="{15614E35-1959-43F4-BE42-A3055C65CF3F}" WorkUnitID="{9ABBC2E3-D7F8-4262-A89B-3F3DB20C31B5}"/>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Guitar Distortion (Custom)" ID="{12DD8966-8A1A-4653-8E50-F08AB01E4DDB}" ShortID="20804998" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+											<PropertyList>
+												<Property Name="DistortionDrive" Type="Real32" Value="65"/>
+												<Property Name="DistortionType" Type="int32" Value="1"/>
+												<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+												<Property Name="PreEQBand2Enable" Type="bool" Value="True"/>
+												<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
+												<Property Name="WetDryMix" Type="Real32" Value="60"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

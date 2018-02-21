@@ -10,8 +10,20 @@ State	ID	Name	State Group			Notes
 	3196405276	s_L4_Groove	Level			
 	4210244680	s_L1_ShereSimple	Level			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2295319958	EnergyTime			\Default Work Unit\EnergyTime	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	69765534	Musique			\Default Work Unit\Master Audio Bus\Musique	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	REVERB			\Default Work Unit\Master Audio Bus\REVERB	
+
+Effect plug-ins	ID	Name	Type				Notes
+	20804998	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	2199193560	New_Wwise_RoomVerb	Wwise RoomVerb			
+	2689776681	New_Wwise_Parametric_EQ_01	Wwise Parametric EQ			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

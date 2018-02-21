@@ -13,6 +13,14 @@
 						<State Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
 						<State Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{3B72F831-E863-4EE0-84F7-3C81E7702B51}"/>
+							<EndState Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

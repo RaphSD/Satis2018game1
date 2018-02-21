@@ -890,6 +890,35 @@
 									<PropertyList>
 										<Property Name="DecayTime" Type="Real32" Value="4.9"/>
 										<Property Name="Density" Type="Real32" Value="70"/>
+										<Property Name="DryLevel" Type="Real32" Value="-0.3">
+											<RTPCList>
+												<RTPC Name="" ID="{69C5AF8D-A75A-49E3-88CC-AD556945DDAE}" ShortID="232034626">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="EnergyTime" ID="{F5331F68-3540-4664-A874-A63327DCEFE9}" WorkUnitID="{2557E156-6F64-47E5-9CFD-F0261F6C46E4}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2EA090DE-4C67-4957-B1FA-77D73B232435}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96.3</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>30</XPos>
+																<YPos>-0.05473</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="ERLevel" Type="Real32" Value="-23"/>
 										<Property Name="ERPattern" Type="int32" Value="15"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
@@ -898,7 +927,35 @@
 										<Property Name="HFDamping" Type="Real32" Value="2.35"/>
 										<Property Name="PreDelay" Type="Real32" Value="74"/>
 										<Property Name="Quality" Type="int32" Value="14"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-23">
+											<RTPCList>
+												<RTPC Name="" ID="{7D24B973-DFFA-4285-AE01-5C3AFCFC5700}" ShortID="312046412">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="EnergyTime" ID="{F5331F68-3540-4664-A874-A63327DCEFE9}" WorkUnitID="{2557E156-6F64-47E5-9CFD-F0261F6C46E4}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0892B703-36E4-48B9-910B-059E53527510}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-0.05487</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>30</XPos>
+																<YPos>-96.3</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
 										<Property Name="RoomSize" Type="Real32" Value="49"/>
 									</PropertyList>

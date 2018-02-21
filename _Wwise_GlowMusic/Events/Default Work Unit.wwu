@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Shmupv2_1" ID="{FDA3FD10-1F02-4A7D-8837-8AE637A9969A}" WorkUnitID="{C0F6CC92-23C4-4E86-9FD3-7149E6154C2D}"/>
+									<ObjectRef Name="MUSIC" ID="{93F59B4B-D2EE-47BB-8F24-F21DB8381286}" WorkUnitID="{C0F6CC92-23C4-4E86-9FD3-7149E6154C2D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

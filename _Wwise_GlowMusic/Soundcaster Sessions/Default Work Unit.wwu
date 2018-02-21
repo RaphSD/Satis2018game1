@@ -11,11 +11,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="EnergyTime" ID="{F5331F68-3540-4664-A874-A63327DCEFE9}"/>
-							<Value>6.5170193731943</Value>
+							<Value>29.5555555555556</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+						<CurrentStateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
