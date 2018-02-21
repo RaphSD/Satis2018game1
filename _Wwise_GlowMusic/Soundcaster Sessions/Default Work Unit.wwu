@@ -15,7 +15,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+						<CurrentStateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

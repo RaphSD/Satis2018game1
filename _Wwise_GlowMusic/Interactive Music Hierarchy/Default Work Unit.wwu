@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{C0F6CC92-23C4-4E86-9FD3-7149E6154C2D}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="MUSIC" ID="{93F59B4B-D2EE-47BB-8F24-F21DB8381286}" ShortID="437989426">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="240"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C62605A7-F1D1-48EF-BC75-C545B430BD11}"/>
@@ -40,7 +43,7 @@
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
-											<StateGroupInfo MusicSyncType="2">
+											<StateGroupInfo MusicSyncType="6">
 												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
 											</StateGroupInfo>
 										</StateGroupList>
@@ -714,7 +717,7 @@
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
-											<StateGroupInfo MusicSyncType="2">
+											<StateGroupInfo MusicSyncType="6">
 												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
 											</StateGroupInfo>
 										</StateGroupList>
@@ -1387,7 +1390,7 @@
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
-											<StateGroupInfo MusicSyncType="2">
+											<StateGroupInfo MusicSyncType="6">
 												<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
 											</StateGroupInfo>
 										</StateGroupList>
@@ -2024,6 +2027,118 @@
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
 										<Property Name="TimeMs" Type="Real64" Value="16000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Music_GameOver" ID="{12055163-E84E-4FBE-896E-C114EB3C7A2E}" ShortID="591132057">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C62605A7-F1D1-48EF-BC75-C545B430BD11}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Music_GameOver" ID="{DEB54886-56DD-44A7-BE7C-A3E5A5C37DFB}" ShortID="410798881">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8C542E27-089D-4789-8804-928E638085FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_GameOver" ID="{48AC02C9-5B2E-4C9A-9633-D44C9D9A0873}" ShortID="829863174">
+											<Language>SFX</Language>
+											<AudioFile>Music_GameOver .wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{911EBC39-D71E-4A51-BB63-1AB573900A50}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C30752B2-BE0D-4DF5-BEBC-7DE3F95D631F}">
+											<ClipList>
+												<MusicClip Name="Music_GameOver " ID="{8567BE75-E402-4234-9615-DF0AB4B00547}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_GameOver" ID="{48AC02C9-5B2E-4C9A-9633-D44C9D9A0873}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Level" ID="{1668C28D-D45C-42F2-A7CF-098555F908E6}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="s_L2_ShereRich" ID="{B1F8E34F-B830-400E-9616-5E5A43ED7D46}"/>
+										<State Name="" ID="{6EFDC7FB-8832-400D-9AF0-255B93F611ED}" ShortID="327963084">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="s_L3_AbstractFlower" ID="{8247AC7E-6B9F-424C-8230-8D3C6B3CC163}"/>
+										<State Name="" ID="{254BBA82-CE0B-4A5A-BCB6-028FBC019D0B}" ShortID="30895617">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="end" ID="{0ACAF7E0-79E4-4703-8010-C1E4C49BEE4F}"/>
+										<State Name="" ID="{CD4D5048-4F76-43E2-9566-3B4C7CFAE9F4}" ShortID="629997033"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="s_L5_GrooveTutti" ID="{6457339A-38E3-48DF-8BB9-51049EAA9CD9}"/>
+										<State Name="" ID="{AE088C1E-E1AF-4542-BB93-19B4F342D39F}" ShortID="923940499">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="s_L1_ShereSimple" ID="{4E892C20-AEA6-4A99-B5B6-0DC0C2081C24}"/>
+										<State Name="" ID="{06A92710-4159-4D0F-A47E-6BE785487238}" ShortID="417298301">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="s_L4_Groove" ID="{2F08B6D4-13E3-4D82-8BF8-6E372B90A3B0}"/>
+										<State Name="" ID="{18C95C23-D14D-481A-A2B0-A72732614A89}" ShortID="45021217">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D7B8CB56-A34A-4C86-8840-84678894448D}"/>
+								<MusicCue Name="Exit Cue" ID="{08FF0ED4-A6F9-4F6E-83B5-43DDA4C40DB9}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="6000"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>

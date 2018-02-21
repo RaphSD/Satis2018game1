@@ -26,6 +26,8 @@ Custom State	ID	Name	State Group	Owner		Notes
 	16729467	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\HHO 1		
 	27276792	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		
 	30842181	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\CLAVES 3		
+	30895617	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\Music_GameOver		
+	45021217	s_L4_Groove	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\Music_GameOver		
 	45846057	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HH 3		
 	65445191	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\BASS 2		
 	66548653	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\CLAVES 2		
@@ -50,9 +52,11 @@ Custom State	ID	Name	State Group	Owner		Notes
 	312496230	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HHO 3		
 	316083145	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\HH 3		
 	319198709	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\PAD 3		
+	327963084	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\Music_GameOver		
 	350075291	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\BASS 1		
 	356962580	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\CLAVES 2		
 	396511402	s_L3_AbstractFlower	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\SNARE 3		
+	417298301	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\Music_GameOver		
 	420475032	s_L4_Groove	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\SNARE 3		
 	421347527	end	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		
 	421666306	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\BASS 2		
@@ -90,6 +94,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	872811344	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\BASS 2		
 	876621140	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\ARP 1		
 	883126924	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\SNARE 2		
+	923940499	s_L5_GrooveTutti	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\Music_GameOver		
 	933966199	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\CLAVES 1		
 	935985905	s_L1_ShereSimple	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\KICK 1		
 	947134781	s_L2_ShereRich	Level	\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\SNARE 2		
@@ -120,6 +125,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	717239442	CLAVES 3	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Android\SFX\CLAVES 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_3\CLAVES 3		3456144
 	763323822	CLAVES 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Android\SFX\CLAVES 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\CLAVES 2		3456144
 	793050158	SNARE 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Android\SFX\SNARE 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\SNARE 1		3456144
+	829863174	Music_GameOver	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Android\SFX\Music_GameOver _F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\Music_GameOver\Music_GameOver		1536144
 	885983625	PAD 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Android\SFX\PAD 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\PAD 2		3456144
 	922221328	HH 2	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Android\SFX\HH 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_2\HH 2		3456144
 	994881208	KICK 1	Y:\Desktop\Scolaire\SATIS\M2\ENJMIN\GUIT\_Wwise_GlowMusic\.cache\Android\SFX\KICK 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\MUSIC_PATTERN_1\KICK 1		3456144

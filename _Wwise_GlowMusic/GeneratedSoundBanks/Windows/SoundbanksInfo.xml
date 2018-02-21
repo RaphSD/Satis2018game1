@@ -113,6 +113,10 @@
 					<ShortName>SNARE 1.wav</ShortName>
 					<Path>SFX/SNARE 1_F17FB28C.wem</Path>
 				</File>
+				<File Id="829863174" Language="SFX">
+					<ShortName>Music_GameOver .wav</ShortName>
+					<Path>SFX/Music_GameOver _F17FB28C.wem</Path>
+				</File>
 				<File Id="885983625" Language="SFX">
 					<ShortName>PAD 2.wav</ShortName>
 					<Path>SFX/PAD 2_F17FB28C.wem</Path>
