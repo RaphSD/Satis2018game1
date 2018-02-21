@@ -6,7 +6,7 @@
 				<Effect Name="New_iZotope_Hybrid_Reverb" ID="{E5A21D7E-EBAA-446B-BDBE-53080E04242C}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3"/>
 				<Effect Name="New_Wwise_RoomVerb" ID="{15614E35-1959-43F4-BE42-A3055C65CF3F}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 					<PropertyList>
-						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-12"/>
 					</PropertyList>
 				</Effect>
 				<Effect Name="New_Wwise_Gain" ID="{83B3AC85-47A3-4557-B034-5DC0377E3A45}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
@@ -35,7 +35,7 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>80.31628</YPos>
+												<YPos>20</YPos>
 												<Flags>5</Flags>
 												<SegmentShape>Log3</SegmentShape>
 											</Point>

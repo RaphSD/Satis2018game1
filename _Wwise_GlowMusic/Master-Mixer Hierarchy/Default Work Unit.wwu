@@ -27,7 +27,7 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-0.04866</YPos>
+														<YPos>-19.03649</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log3</SegmentShape>
 													</Point>
@@ -60,7 +60,7 @@
 									<Custom>
 										<Effect Name="Wwise Guitar Distortion (Custom)" ID="{12DD8966-8A1A-4653-8E50-F08AB01E4DDB}" ShortID="20804998" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
 											<PropertyList>
-												<Property Name="DistortionDrive" Type="Real32" Value="65"/>
+												<Property Name="DistortionDrive" Type="Real32" Value="100"/>
 												<Property Name="DistortionType" Type="int32" Value="1"/>
 												<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
 												<Property Name="PreEQBand2Enable" Type="bool" Value="True"/>
